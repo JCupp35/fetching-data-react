@@ -1,4 +1,9 @@
+import dotenv from 'dotenv';
+dotenv.config();
+
 import React from "react";
+
+const apikey= process.env.API_KEY;
 
 function App() {
   const [user, setUser] = React.useState([]);
